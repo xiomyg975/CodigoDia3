@@ -1,0 +1,34 @@
+h1{
+        color:red;
+        font-family: 'Arial';
+}
+
+section{
+    color:blue;
+    border:1px solid darkblue ;
+}
+p{
+    color:green;
+}
+
+article{
+    color:purple ;
+}
+/* clase class-> .nombreclase */
+.tituloarticulo{
+    color:brown;
+    font-family : 'Arial';
+}
+.borde{
+    border:1px solid black;
+}
+/* Selectores por id 
+#nombreid */
+
+#links{
+    background-color:paleturquoise;
+}
+#contacto{
+    color:orangered;
+    
+}

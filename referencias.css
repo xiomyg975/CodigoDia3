@@ -1,0 +1,41 @@
+li,a {
+    color:purple;
+}
+/* Llamar a los hijos a cualquier nivel , h2 que sean hijos de secction utilizaran estos estilos */
+section h2{
+    color:black;
+}
+/* a todos los hijos que sean directs en un primer nivel */
+article>h3{
+    background-color: skyblue;
+}
+form>label{
+    border :1px solid blue;
+}
+.texto-grande{
+    font-family :'Arial';
+    font-size:40px;
+}
+h1.texto-grande{
+    font-size : 50px;
+    font-family : 'Helvetica' ;
+}
+h2.texto-grande{
+    background-color:purple  ;
+}
+/* Selecnntores de etiquetas pero con atributos */
+input[name]{
+    border :2px dashed chocolate ;
+}
+p[name = "parrafo2"]{
+    font-size :20px;
+    color :red ;
+    background-color : orange;
+}
+input[type = "email"]{
+    color:salmon;
+}
+#contacto textarea{
+    color :slateblue:
+    border:4px solid purple ;
+}

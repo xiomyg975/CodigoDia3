@@ -1,0 +1,28 @@
+/* Pseudo clases 
+selector pseudoclases () */
+/* segun la posicion del elemento colocar el estilo */
+p:nth-child(3){
+    color:blue ;
+    font-weight : bold;
+}
+/* coger+a el prier elemento */
+p:first-child{
+    color:red;
+    /* cogerá el utimo elemtno */
+}p:last-child{
+    color:green ;
+}
+tr:nth-child(odd){
+    background-color:lightseagreen;;
+}
+tr:nth-child(even){
+    background-color :skyblue ;
+}
+thead tr:nth-child(1){
+    background-color :blue;
+    color:white;
+}
+div:not(.exception){
+    font-size :20px;
+border :1px solid pink;
+}
